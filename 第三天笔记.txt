@@ -1,0 +1,54 @@
+学习用时：3个小时
+学习目标：零基础学院-第二天:让简历有点色彩
+目标是否达成：已达成
+学习验证：
+1、什么是css，css是如何工作的
+css(Cascading Style Sheets层叠样式表),样式化和排版网页(例如内容的字体,大小,颜色)
+
+（1）浏览器将css的规则应用在html;前置条件html中引用了css.
+（2）浏览器加载html
+（3）浏览器解析html,同时加载css
+（4）浏览器解析css,并使css结合html,生成DOM(Document Object Model,文档对象模型)浏览器展示DOM
+
+2、css的基本语法是怎样的
+（1）.声明:(属性:值);
+（2）.css规则:选择器 {声明块};多个声明用";分隔构成声明块.(ps: p#id01 {xx属性:xx值});
+（3）.css语句:@规则和嵌套语句
+
+3、css选择器是什么概念，简单选择器和属性选择器是什么
+选择器是一种模式，匹配页面元素;
+简单选择器:
+（1）.类型选择器(p,div)
+（2）.类选择器(.)
+（3）.ID选择器(#)
+（4）.通用选择器(*)
+
+属性选择器:
+（1）.存在和值（Presence and value）属性选择器
+（2）子串值（Substring value）属性选择器
+
+4、文本样式有哪些相关属性，对应哪些值
+字体样式
+1.color:red; #FFFFFF;rgb(0,125,246);rgb(100%,100%,100%);#fff;网络安全色;
+
+2.font-family："Times New Roman",Georgia,Serif; 设置字体
+
+3.font-size ：200%;设置尺寸
+
+4.font-sytle　设置字体风格　normal默认值，italic斜体
+
+
+5.font-weight　字体粗细　normal默认值，bold定义粗体字符，bolder定义更粗字符，lighter定义更细字符，数值定义由粗到细的字符。400 等同于 normal，而 700 等同于 bold。
+
+6.text-transform:uppercase，属性控制文本的大小写，none默认。capitalize文本中的每个单词以大写字母开头。uppercase定义仅有大写字母。lowercase定义无大写字母，仅有小写字母。inherit规定应该从父元素继承 text-transform 属性的值。
+
+７.text-shadow：5px 5px 5px #FF0000;设置阴影
+
+文本布局风格
+1.text-align：属性规定元素中的文本的水平对齐方式。left把文本排列到左边。默认值：由浏览器决定。right把文本排列到右边。center把文本排列到中间。
+
+2.line-height：属性设置行间的距离（行高）。
+
+3.word-spacing：属性增加或减少单词间的空白（即字间隔）。
+
+4.letter-spacing：性增加或减少字符间的空白（字符间距）。
