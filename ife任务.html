@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ife任务</title>
+	<style type="text/css">
+		header{
+			width: 100%;
+			height: 80px;
+			background-color: #333333;
+		}
+		.content{
+			width: 1300px;
+			margin: 0 auto;
+		}
+		.logo{
+			padding: 15px;
+			line-height: 80px;
+			float: left;
+		}
+		.nua{
+			float: right;
+		}
+		.banner{
+			width: 100%;
+			height: 300px;
+			background-color:#66bb33;
+		}
+		#sli{
+			width:1300px;
+			height: 300px;
+			margin: 0 auto;
+			position: relative;  
+
+
+		}
+		.right{
+			width: 200px;
+			padding-top: 210px;
+			margin-left: 1000px;
+			float: left;  
+
+		}
+		.nua ul li {float:left; width:80px; height:30px; text-align:center; line-height:30px; list-style:none;}
+		a:link {color: #FFFFFF}		/* 未访问的链接 */
+		a:visited {color: #00FF00}	/* 已访问的链接 */
+		a:hover {color: #FF00FF}	/* 鼠标移动到链接上 */
+		a:active {color: #0000FF}	/* 选定的链接 */
+		.right ul li {float:left;  text-align:center;  list-style:none;}
+		.li1{width: 30px;height: 40px;  line-height: 40px; border:1px solid black; background-color: #b2dd99; margin-right: 5px;margin-top: 20px;}
+		.li2{width: 30px;height: 60px;  line-height: 80px; border:1px solid black; background-color: #e0f1d6; margin-right: 5px;}
+		.nuat{
+			width:1300px;
+			margin: 0 auto;
+		}
+		.nuat ul li{float:left; width:80px; height:30px; text-align:center; line-height:30px; list-style:none; border:1px solid #cccccc;border-radius: 20px;padding: 20px;background-color: #eeeeee;}
+		hr{width: 100%;
+			color: #cccccc;
+			position: relative;
+			top: 70px;
+		}
+		.flexbox{
+			height: 200px;
+			padding: 80px;
+			margin: 10px; 10px 10px 20px;
+			border: 1px solid #cccccc;
+			float: left;
+		}
+		.box{	
+			clear: both;
+			flex-wrap: wrap;
+			display:flex;
+			-webkit-box-align: center;
+			background-color: white;
+		}
+		.flexbox{
+			flex:1;
+
+		}
+		.footer{
+			clear: both;
+			height: 150px;
+			margin: 0 auto;
+			background-color: #666666;
+		}
+		p{
+			text-align: center;
+			line-height: 100px;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="content">
+			<div class="logo"> <img src="image\logo.png" width="50px" height="50"></div>
+			<div class="nua">
+				<ul>
+					<li><a href="www.gxlong,com">Github</a></li>
+					<li><a href="www,gxlong,com">Register</a></li>
+					<li><a href="www.gxlong.com">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>	
+	<div class="banner">
+		<div id="sli">
+			<div class="right">
+				<ul>
+					<li class="li1">1</li>
+					<li class="li2">2</li>
+					<li class="li1">3</li>
+					<li class="li1">4</li>
+				</ul>
+			</div>
+			<div>
+			</div>	
+		</div>
+	</div>	
+	<hr>
+	<div class="nuat">
+		<div>
+			<ul>
+				<li>HOME</li>
+				<li>PROFILE</li>
+				<li>ABOUT</li>
+			</ul>
+		</div>
+		<div class="box">
+		<div>
+			<div class="flexbox">This is Content 1</div>
+			<div class="flexbox">Maybe Content 2</div>
+			<div class="flexbox"> Content 3</div>
+		</div>
+		<div>
+			<div class="flexbox">Content 4</div>
+			<div class="flexbox">Content 5</div>
+			<div class="flexbox">Content 6</div>
+			<div class="flexbox">Content 7</div>
+		</div>
+		<div>
+			<div class="flexbox">Content 8</div>
+			<div class="flexbox">Content 9</div>
+			<div class="flexbox">Content 10</div>
+		</div>	
+	</div>
+	
+	</div>
+
+	<footer>
+		<div class="footer">
+			<p>©2018 life.baidu.com</p>
+		</div>
+	</footer>
+</body>
+</html>
