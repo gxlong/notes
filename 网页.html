@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello world</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="\css\dex.css">
+	<style type="text/css">
+		*{
+			margin: 0 auto;
+			padding: 0;
+
+		}
+		html,body{
+			width: 1600px;
+		}
+
+		header{
+			width: 100%;          
+			height: 1000px;                
+			background-image: url(image1/Background.png);
+			background-repeat: no-repeat;
+		}
+		h1,h2,h3,h4,h5,h6{text-align: center;font-family: Montserrat ExtraLight;}
+		header h1{
+			font-size: 45px;
+			text-align: center;
+			padding-top: 200px;
+			color: white;
+		}
+		.pp{
+			width: 770px;
+			height: 84px;
+			padding: 100px;
+		}
+		p{		
+			font-family: Montserrat ExtraLight;
+			text-align: center;
+		}
+		header .pp p{
+			font-size: 20px;
+			display: inline-block;
+			line-height: 34px;
+			color: #d0d0cf;		
+		}
+		.sign{
+			width: 970px;
+			height: 250px;  
+			border: 1px solid #605c51;
+		}
+		header .sign p:nth-of-type(1){
+			font-size: 18px;
+			color: white;
+			letter-spacing: 2px;
+			padding-top: 40px;
+
+		}
+		header .sign p:nth-of-type(2){
+			font-size: 12px;
+			color: #84827e;
+			letter-spacing: 1px;
+			padding-top: 15px;
+		}
+		.myForm{
+			width: 770px;
+			height: 50px;
+			margin-top: 40px;
+		}
+		#myInput{
+			width: 270px;
+			height: 50px;
+			border: 1px solid #605c51;
+			color: white;
+			padding-left: 15px;
+			font-size: 15px;
+			margin-right: 20px;
+			float: left;
+		}
+		header .sign .myForm button{
+			width: 130px;
+			height: 50px;
+			border: 1px solid #605c51;
+			color: black;
+			margin-right: 20px;
+			text-align: center;
+			font-size: 15px;
+			float: left;
+		}
+		.feature1{
+			width: 1600px;
+			height: 710px;
+			background-image: url(image1/Background1.png);
+			background-repeat: no-repeat;
+		}
+		.feature1 p:nth-of-type(1){
+			padding-top: 100px;
+			letter-spacing: 1px;
+		}
+		.feature1 h1{
+			width: 707px;
+			height: 92px;
+			font-size: 30px;
+			text-align: center;
+			color: #141414;
+			padding-top: 30px;
+		}
+		.content{
+			width: 1028px;
+			display: flex;
+		}
+		article{
+			flex:1;
+			height: 85px;
+			margin-top: 60px;
+			float: left;
+		}
+		article  .divp p:nth-of-type(1){
+			display: inline-block;
+			font-size: 15px;
+			font-weight:bold;
+			color: black;
+			letter-spacing: 0px;
+		}
+		article .divp p:nth-of-type(2){
+			display: inline-block;
+			font-size: 13px;
+			color: #797979;
+			text-align: left;
+			line-height: 20px;
+			padding-top: 10px;
+		}
+		article .imgtu{
+			width: 40px;
+			height: 85px;
+			margin-right: 25px;
+			float: left;
+		}
+		article .divp{
+			width: 350px;
+			height: 85px;
+			float: left;
+			margin-top: -100px;
+		}
+		.feature2{
+			width: 1600px;
+			height: 800px;
+			background-image: url(image1/Background2.png);
+			background-repeat: no-repeat;
+			position: relative;
+		}
+		.feature2 section{
+
+		}
+		.feature2 section h1{
+			font-size: 35px;
+			color: white;
+			display: block;
+			width: 370px;
+			padding-top: 200px;
+			margin-left: 300px;
+			float: left;
+
+		}
+		.feature2 section p{
+			font-size: 15px;
+			color: white;
+			clear: both;
+			width: 370px;
+			text-align: left;
+			padding-top: 80px;
+			margin-left: 300px;
+
+		}
+		.feature2 .but{
+			width: 200px;
+			height: 50px;
+			margin-top: 80px;
+			text-align: center;
+			margin-left: 300px;
+			border: 1px solid #605c51;
+			color: black;
+		}
+		.feature2 button{
+			width: 200px;
+			height: 50px;
+			margin-top: 80px;
+			text-align: center;
+			margin-left: 20px;
+			border: 1px solid #605c51;
+			color: white;
+		}
+		.feature3{
+			width: 1600px;
+			height: 580px;
+			background-image: url(image1/Background3.png);
+			margin: 0 auto;
+			text-align: center;
+		}
+		.feature3 h4{
+			font-size: 30px;
+			text-align: center;
+			font-weight: 10px;
+			padding-top: 60px;
+			padding-bottom: 60px;
+		}
+		.feature3 p{
+			font-size: 13px;
+			text-align: center;
+			padding-top: 35px;
+			line-height: 25px;
+			color: #5d5d5d;
+		}
+		.cap{
+			width: 955px;
+			height: 250px;
+			display: flex;
+		}
+		.wer{
+			width: 350px;
+			float: left;
+			margin: 0 20px
+		}
+		hr{
+			color: #dfdddd;
+		}
+		.team{
+			width: 955px;
+			height: 1000px;
+			background-image: url(image1/Background4.png);
+		}
+		.nno{
+			width: 955px;
+			padding-top: 100px;
+			display: flex;
+		}
+		.tt1{
+			float: left;
+		}
+		.tt1 h3{
+			width: 300px;
+			text-align: left;
+			margin:0px;
+			padding-top: 50px;
+			padding-left: 100px;
+		}
+		.tt1 p{
+			padding-top: 40px;
+			text-align: left;
+			color: #5d5d5d;
+			padding-left: 100px;
+		}
+		.tt2 h3{
+			width: 300px;
+			text-align: left;
+			margin:0px;
+			padding-top: 50px;
+			padding-right: 100px;
+		}
+		.tt2 p{
+			padding-top: 40px;
+			text-align: left;
+			color: #5d5d5d;
+			padding-right: 100px;
+		}
+		.contact{
+			width: 1600px;
+			height: 1085px;
+		}
+		.contact h1{
+			padding-top: 100px;
+		}
+		.contact p{
+			width: 700px;
+			padding-top: 30px;
+			color: #5d5d5d;
+			font-size: 16px;
+			padding-bottom: 40px;
+		}
+		.conm{
+			width:1025px;
+			display: flex;
+		}
+		.conm .igg{ 
+			padding: 20px 10px;
+		}
+		.mon{
+			width: 1025px;
+			height: 700px;
+			background-image: url(image1/Background5.png);
+			display: flex;
+		}
+		.ssr{width: 450px;
+			height: 560px;
+			border: 1px solid #d4d3d3;
+			margin-top:60px;
+			float: left;
+		}
+		.ssr h3{
+			padding-top: 60px;
+			padding-bottom: 40px;
+		}
+		.ssr input{
+			width: 340px;
+			border:  1px solid #dfdddd;
+			padding: 20px;
+			margin-left: 30px;
+			margin-bottom: 20px;
+		}
+		.ssr textarea{
+			width: 340px;
+			border:  1px solid #dfdddd;
+			padding: 20px;
+			margin-left: 30px;
+			margin-bottom: 20px;
+		}
+		.ssr button{
+			width: 380px;
+			height: 60px;
+			padding: 20px;
+			margin-left: 30px;
+			background-color:#141414;
+			color: white;
+		}
+		.rrt{
+			width: 450px;
+			height: 560px;
+			margin-top:60px;
+			float: left;
+		}
+		.rrt h1{
+			display: inline-block;
+			text-align: left;
+			padding-top:70px;
+			padding-bottom: 30px;
+		}
+		.rrt p{
+			text-align: left;
+			font-size: 18px;
+			color: #797979;
+			padding-bottom: 40px;
+		}
+		.rrt table{
+			margin-left: 0;
+		}
+		.rrt table tr th+td{
+			padding:20px;
+
+		}
+		footer{
+			width: 1600px;
+			height: 420px;
+			background-image: url(image1/Background6.png);
+			
+		}
+		footer .mune{
+			width: 1160px;
+			display: flex;
+		}
+		.hhf{width: 265px;
+			padding-top: 100px;
+		}
+		footer .hhf p{
+			line-height: 50px;
+			text-align: left;
+		}
+		footer .hhf p:nth-of-type(1){
+			color: white;
+			font-weight: bold;
+		}
+		footer .hhf p:nth-of-type(2){
+			color: #383838;
+		}
+		footer .hhf ul li{
+			float: left;
+			list-style: none;
+			padding-right: 20px;
+			padding-top: 20px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Hello World</h1>
+		<div class="pp">
+			<p>China is speeding up strategic plan, standards, traffic rules, laws and regulations on accident-incurred liabilities for its smart car industry, Economic Information Daily reported Thursday.</p>
+		</div>
+		<div class="sign">
+			<p>CREATE YOUR ACCOUNT</p>
+			<p>IT IS ABSOLUTELY FREE</p>
+			<form class="myForm">
+				<input id="myInput" type="text" name="name" autofocus="autofocus" style="background-color: transparent" style="color: white" placeholder="Create your name" size="30" >
+				<input id="myInput" type="text" name="name" autofocus="autofocus" style="background-color: transparent" style="color: white" placeholder="Create your password" size="30" >
+				<button type="button">SIGN UP</button>
+			</form>
+		</div>
+	</header>
+	<div class="feature1">
+		<p>BOATLOADS OF AWESOME</p>
+		<h1>Ready-made, customizable, HTML landing page sections</h1>
+		<div class="content">
+			<article>
+				<div class="imgtu"><img src="image1/Iphone-Icon.png" alt="Tphone-Tcon.png"></div>
+				<div class="divp">
+					<p>Mobile First</p>
+					<p>All modulz are built mobile-first for maximum device compatibility.</p>
+				</div>		
+			</article>
+			<article>
+				<div class="imgtu"><img src="image1/Check-Icon.png" alt="Check-Icon.png"></div>
+				<div class="divp">
+					<p>Accessibility</p>
+					<p>Support for IE8, mobile and tablet devices, screenreaders and color blind.</p>
+				</div>
+			</article>
+		</div>
+		<div class="content">
+			<article>
+				<div class="imgtu"><img src="image1/Pencil-Icon.png" alt="Pencil-Icon.png"></div>
+				<div class="divp">
+					<p>Fluid Typography</p>
+					<p>On different screen sizes, fonts automagically scale with the viewport.</p>
+
+				</div>		
+			</article>
+			<article>
+				<div class="imgtu"><img src="image1/Settings-Icon.png" alt="Settings-Icon.png"></div>
+				<div class="divp">
+					<p>Customization</p>
+					<p>Make any design your own using the Style Editor. Personalize fonts, colors, and layouts to create the custom look you want.</p>
+				</div>
+			</article>
+		</div>
+	</div>
+	<div class="feature2">
+		<section>
+			<h1>Supportive policies for China's smart car</h1>
+			<p>China will come up with its own smart car standards, traffic rules, laws and regulations relating to safety, according to the China Industry Innovation Alliance for the Intelligent and Connected Vehicles.</p>
+		</section>
+		<button class="but">CHEAK OUT FEATURES</button>
+		<button style="background-color: transparent">TRY PRODUCT FOR FREE</button>
+	</div>
+	<div class="feature3">
+		<h4>Try Our Awesome Products</h4>
+		<div class="cap">
+			<div class="wer">
+				<img src="image1/logo1.png">
+				<p>Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee, said that China will also launch design guidance for smart cars, smart map architecture and standards for test grounds.</p>
+			</div>
+			<div class="wer">
+				<img src="image1/Hero.png">
+				<p>Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee, said that China will also launch design guidance for smart cars, smart map architecture and standards for test grounds.</p>
+			</div>
+			<div class="wer">
+				<img src="image1/Portland.png">
+				<p>Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee, said that China will also launch design guidance for smart cars, smart map architecture and standards for test grounds.</p>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="team">
+		<div class="nno">
+			<div class="tt1"><img src="image1/图层3.png" alt="图层3.png"></div>
+			<div class="tt1">
+				<h3>Learn How to Improve Your Personal Business</h3>
+				<p>Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee, said that China will also launch design guidance for smart cars, smart map architecture and standards for test grounds.</p>
+			</div>
+		</div>
+		<div class="nno">
+			<div class="tt2">
+				<h3>Choose Between Two Beautifully Designed Color Schemes.</h3>
+				<p>China will come up with its own smart car standards, traffic rules, laws and regulations relating to safety, according to the China Industry Innovation Alliance for the Intelligent and Connected Vehicles.</p>
+			</div>
+			<div class="tt2"><img src="image1/图层4.png" alt="图层4.png"></div>
+		</div>
+	</div>
+	<hr>
+	<div class="contact">
+		<h1>Our Awesome Crew</h1>
+		<p>Our unique online teaching style makes learning easy for everyone. Whether you are trying to land a new job, brush up on your skills.</p>
+		<div class="conm">
+			<div class="igg"><img src="image1/Userpic-1.png" alt="Userpic-1.png"></div>
+			<div class="igg"><img src="image1/Userpic-2.png" alt="Userpic-2.png"></div>
+			
+		</div>
+		<div class="conm">
+			<div class="igg"><img src="image1/Userpic-3.png" alt="Userpic-3.png"></div>
+			<div class="igg"><img src="image1/Userpic-4.png" alt="Userpic-4.png"></div>
+		</div>
+	</div>
+	<hr>
+	<div class="mon">
+		<div class="ssr">
+			<h3>FELL FREE TO WRITE US</h3>
+			<input type="text" name="E-mail"style="background-color: transparent" style="color: #5d5d5d" placeholder="E-mail" size="30">
+			<input type="text" name="Subjet"style="background-color: transparent" style="color: #5d5d5d" placeholder="Subjet" size="30">
+			<textarea rows="4" cols="20"style="resize:none" placeholder="Message"  ></textarea>
+			<button type="button">SEND</button>
+		</div>
+		<div class="rrt">
+			<h1>Contacts</h1>
+			<p>Make any design your own using the Style Editor. Personalize fonts, colors, and layouts to create the custom look you want.</p>
+			<table>
+				<tr>
+					<th><img src="image1/Map-Icon.png" alt="Mail-Icon.png"></th>
+					<td>360 King Street<br>Feastrvale Trevose, PA 19057  </td>
+				</tr>
+				<tr>
+					<th><img src="image1/Phone-Icon.png"></th>
+					<td>(755) 564-84-12</td>
+				</tr>
+				<tr>
+					<th><img src="image1/Mail-Icon.png"></th>
+					<td>youname@mail.com</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<footer>
+	<div class="mune">
+		<div class="hhf">
+			<p>LEARN MORE</p>
+			<p>How it works?<br>Meeting tools <br>Live streaming <br>Contact method</p>
+		</div>
+		<div class="hhf">
+			<p>ABOUT US</p>
+			<p>About us <br>Features <br>Privacy police <br>Terms & Conditions</p>
+		</div>
+		<div class="hhf">
+			<p>SUPPORT</p>
+			<p>F.A.Q. <br>Contact us <br>Live chat <br>Phone call</p>
+		</div>
+		<div class="hhf">
+			<p>ENKOY YOUR LIFE</p>
+			<p>Great web UI kit for designers, freelancers or business.</p>
+			<ul>
+				<li><img src="image1/Facebook-Icon.png"></li>
+				<li><img src="image1/Google-Icon.png"></li>
+				<li><img src="image1/LinkedIn-Icon.png"></li>
+				<li><img src="image1/Pinterest-Icon.png"></li>
+				<li><img src="image1/Tumbler-Icon.png"></li>
+				<li><img src="image1/Twitter-Icon.png"></li>
+			</ul>
+		</div>
+	</div>
+		
+	</footer>
+</body>
+</html>
